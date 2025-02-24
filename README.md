@@ -1,2 +1,2 @@
-# leveltest-api
-FastApi+chatGPT 를 활용한 채점 및 문제 만들기
+# leveltest-backend
+fastapi  + chatgpt 를 사용하여 채점,문제 ,분석 결과를 만든다
