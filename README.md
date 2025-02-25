@@ -1,9 +1,9 @@
 # AI 레벨 테스트 점수 채점 코드
-fastapi ,  chatgpt 를 사용하여 채점,문제 ,분석 결과를 만든다.
- **1. git 파일 다운로드**
-  `$git clone https://github.com/generlists/leveltest-api`
- **2.  open ai API 요청을 위한 .env 파일 만들기**
-    $ cd  leveltest-api
+fastapi ,  chatgpt 를 사용하여 채점,문제 ,분석 결과를 만든다.<br>
+ **1. git 파일 다운로드** <br>
+  `$git clone https://github.com/generlists/leveltest-api` <br>
+ **2.  open ai API 요청을 위한 .env 파일 만들기** <br>
+    $ cd  leveltest-api 
     $leveltest-api$ mkdir .env
     $leveltest-api$ open .env
 OPENAI_API_KEY={OPEN AI API 키 입력}
