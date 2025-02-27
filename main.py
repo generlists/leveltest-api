@@ -18,9 +18,12 @@ from database import get_db
 
 load_dotenv()
 
+print(f"API Key: {os.environ.get("OPENAI_API_KEY")}")
 client = OpenAI(
     api_key=os.environ.get("OPENAI_API_KEY")  # This is the default and can be omitted
+    
 )
+
 
 #  테이블 자동 생성
 models.Base.metadata.create_all(bind=engine)
